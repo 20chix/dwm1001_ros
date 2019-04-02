@@ -9,11 +9,15 @@ This package at the moment supports 4 anchors and 1 tag, however I'm looking to 
 
 Once you have created RTLS network make sure that it works on the app from the grid view. 
 
-### Now switch to ROS
+
 ### Download this package
+
 ### Plug the usb of the tag into your laptop
+
 ### Check the name of the usb(in my case is /dev/ttyACM0)
-#### You can change the name of the usb in the launch file or in in the code dwm1001_main.py
+You can change the name of the usb in the launch file or in in the code dwm1001_main.py
+
 ### Now launch the package with rosrun 
-#### It will ask you to enter your password since it requires permission to enter the usb
+It will ask you to enter your password since it requires permission to enter the usb
+
 ### Now you should see your tag and anchor info
